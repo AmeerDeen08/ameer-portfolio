@@ -1,0 +1,82 @@
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#hero {
+  overflow: hidden; /* prevent child absolute items from overflowing */
+}
+@keyframes gridMove {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 400% 400%;
+  }
+}
+
+.animate-grid {
+  animation: gridMove 100s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@font-face {
+  font-family: 'Amulya';
+  src: url('../fonts/Amulya-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+.font-amulya {
+  font-family: 'Amulya', sans-serif;
+}
+@font-face {
+  font-family: 'SourceCodePro';
+  src: url('../fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+.sourcecodepro {
+  font-family: 'SourceCodePro', sans-serif;
+}
+
+/* animated text */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 2s ease infinite;
+}
+
+/* Hide scrollbar while allowing scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
