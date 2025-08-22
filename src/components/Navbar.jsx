@@ -114,7 +114,7 @@ function Navbar() {
       borderBottom: 'none', 
       border: 'none' 
     }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-7">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
