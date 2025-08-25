@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaGithub, FaExternalLinkAlt, FaClock } from 'react-icons/fa';
-import projects from '../data/ProjectsData';
+import projects from './ProjectsData';
 
 export default function Projects() {
   const containerVariants = {

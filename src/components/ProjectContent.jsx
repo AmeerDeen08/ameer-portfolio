@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaArrowLeft, FaGithub, FaExternalLinkAlt, FaClock, FaCheckCircle, FaStar, FaCalendarAlt, FaCode, FaUsers, FaLightbulb, FaRocket } from 'react-icons/fa';
-import projects from '../data/ProjectsData';
+import projects from './ProjectsData';
 
 export default function ProjectContent() {
   const { projectId } = useParams();
