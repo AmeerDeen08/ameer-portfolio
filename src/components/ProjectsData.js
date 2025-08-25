@@ -1,4 +1,6 @@
 import Img from '../assets/images/bgg.png';
+import Notes from '../assets/images/notes.png'
+import Ecommerce from '../assets/images/ecommerce.png'
 
 const projects = [
   {
@@ -8,7 +10,7 @@ const projects = [
     technologies: ['React-Native', 'TailwindCSS', 'PostgresSQL'],
     github: '',
     live: '',
-    thumbnail: Img,
+    thumbnail: Notes,
     status: 'completed',
     completionDate: 'July 2024',
     features: [
@@ -32,7 +34,7 @@ const projects = [
     technologies: ['ReactJS', 'Bootstrap'],
     github: '',
     live: '',
-    thumbnail: Img,
+    thumbnail: Ecommerce,
     status: 'completed',
     completionDate: 'September 2024',
     features: [
